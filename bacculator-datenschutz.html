@@ -1,14 +1,128 @@
 <!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Datenschutzerklärung Bacculator | SimeaIT</title><link rel="stylesheet" href="styles.css"></head>
-<body><header><nav aria-label="Hauptnavigation"><a class="brand" href="index.html"><span class="brand-logo" aria-hidden="true">S</span>SimeaIT</a><div class="nav-links"><a href="index.html">Startseite</a><a href="impressum.html">Impressum</a></div></nav></header>
-<main class="container content"><div class="eyebrow">Bacculator</div><h1>Datenschutzerklärung für die App Bacculator</h1><div class="note"><strong>Entwurf – noch nicht für Google Play geeignet.</strong> Diese Angaben müssen anhand der tatsächlichen App-Funktionen und verwendeten Dienste ergänzt werden. Unzutreffende Punkte entfernen; niemals ungeprüft „keine Datenerhebung“ behaupten.</div>
-<p>Stand: <span class="placeholder">[Datum der Prüfung]</span></p>
-<h2>1. Verantwortlicher</h2><p>SimeaIT – <span class="placeholder">[Vollständiger Vor- und Nachname]</span><br><span class="placeholder">[Ladungsfähige Anschrift]</span><br>E-Mail: <span class="placeholder">[Support-/Datenschutz-E-Mail]</span></p>
-<h2>2. Welche Daten verarbeitet die App?</h2><p><span class="placeholder">[Genau beschreiben: Welche Eingaben, Gerätekennungen, Berechtigungen und sonstigen personenbezogenen Daten verarbeitet Bacculator? Welche Daten bleiben nur auf dem Gerät und welche werden übertragen?]</span></p>
-<h2>3. Zwecke und Rechtsgrundlagen</h2><p><span class="placeholder">[Für jede Verarbeitung den Zweck und die zutreffende Rechtsgrundlage benennen, etwa Funktion der App, Fehleranalyse oder Werbung – nur falls tatsächlich vorhanden.]</span></p>
-<h2>4. Drittanbieter und Datenweitergaben</h2><p><span class="placeholder">[Alle tatsächlich eingebundenen Dienste/SDKs prüfen, z. B. Werbung, Analyse, Crash-Reports, Cloud-Synchronisation, Anmeldung. Empfänger und mögliche Drittlandübermittlungen nennen. Bei keinen externen Diensten zutreffend beschreiben.]</span></p>
-<h2>5. Speicherung und Löschung</h2><p><span class="placeholder">[Speicherorte, Aufbewahrungsdauer, Löschmechanismen und ggf. Kontolöschung konkret erläutern.]</span></p>
-<h2>6. Datensicherheit</h2><p><span class="placeholder">[Tatsächlich eingesetzte Schutzmaßnahmen beschreiben, insbesondere für Datenübertragungen und gespeicherte personenbezogene Daten.]</span></p>
-<h2>7. Deine Datenschutzrechte</h2><p>Abhängig von den gesetzlichen Voraussetzungen bestehen unter anderem Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Außerdem besteht ein Beschwerderecht bei einer Datenschutzaufsichtsbehörde. Anfragen können an die oben genannte Kontaktadresse gerichtet werden.</p>
-<h2>8. Änderungen</h2><p>Diese Datenschutzerklärung wird angepasst, wenn sich die Datenverarbeitung der App ändert.</p>
-</main><footer><div class="footer-inner"><span>© SimeaIT</span><div><a href="impressum.html">Impressum</a><a href="datenschutz-website.html">Website-Datenschutz</a></div></div></footer></body></html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datenschutzerklärung für die App Bacculator von SimeaIT: lokale Kontodaten, freiwillige Fehlerberichte, Feedback und Sicherungen.">
+  <title>Datenschutzerklärung Bacculator | SimeaIT</title>
+  <link rel="canonical" href="https://dennisfrese.github.io/SMIT-WS/bacculator-datenschutz.html">
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f8fb; --card: #fff; --text: #182332; --muted: #526175; --border: #dce3ed; --link: #1456a3; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 1rem/1.7 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    header, footer { border-bottom: 1px solid var(--border); background: var(--card); }
+    nav, .footer-inner { max-width: 960px; margin: auto; padding: 18px 24px; display: flex; gap: 16px; flex-wrap: wrap; justify-content: space-between; }
+    nav div, footer div div { display: flex; gap: 18px; flex-wrap: wrap; }
+    .brand { color: var(--text); font-weight: 750; text-decoration: none; }
+    main { max-width: 960px; margin: 28px auto; padding: clamp(20px, 5vw, 44px); background: var(--card); border: 1px solid var(--border); border-radius: 16px; }
+    h1 { font-size: clamp(1.7rem, 5vw, 2.5rem); line-height: 1.2; margin-top: 0; }
+    h2 { margin-top: 2rem; font-size: 1.25rem; line-height: 1.4; }
+    a { color: var(--link); text-underline-offset: 3px; overflow-wrap: anywhere; }
+    p, li, address { overflow-wrap: anywhere; }
+    address { font-style: normal; }
+    .meta { color: var(--muted); }
+    .summary { padding: 16px 20px; border-left: 4px solid var(--link); background: var(--bg); border-radius: 8px; }
+    ul { padding-left: 1.4rem; }
+    li + li { margin-top: .4rem; }
+    footer { border-top: 1px solid var(--border); border-bottom: 0; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #101721; --card: #192332; --text: #edf2f8; --muted: #b6c2d2; --border: #344357; --link: #99c8ff; } }
+    @media print { header, footer { display: none; } main { border: 0; margin: 0; padding: 0; } }
+  </style>
+</head>
+<body>
+<header>
+  <nav aria-label="Hauptnavigation">
+    <a class="brand" href="index.html">SimeaIT</a>
+    <div><a href="index.html">Startseite</a><a href="impressum.html">Impressum</a></div>
+  </nav>
+</header>
+<main id="inhalt">
+  <p class="meta">Bacculator · Stand: 13. November 2026 · App-Version 1.2</p>
+  <h1>Datenschutzerklärung für die App Bacculator</h1>
+  <p>Diese Datenschutzerklärung erläutert die Verarbeitung personenbezogener Daten bei der Nutzung von Bacculator. Für den Besuch der Website gelten ergänzend die <a href="datenschutz-website.html">Datenschutzhinweise der Website</a>.</p>
+  <div class="summary"><strong>Das Wichtigste:</strong> Deine Kontodaten werden lokal auf deinem Gerät gespeichert. Automatische technische Fehlerberichte sind freiwillig und zunächst ausgeschaltet. Rückmeldungen werden nur abgesendet, wenn du selbst eine Meldung sendest. Ein vollständiger Fehlerexport mit Kontodaten und Importdateien wird nur nach deiner gesonderten Auswahl übermittelt.</div>
+
+  <h2>1. Verantwortlicher und Kontakt</h2>
+  <address>
+    Dennis Frese, handelnd unter SimeaIT<br>
+    Am Urnenfeld 14<br>
+    32459 Bad Oeynhausen<br>
+    Deutschland<br>
+    E-Mail: <a href="mailto:support@safelog-journal.com">support@safelog-journal.com</a>
+  </address>
+  <p>Unter dieser Adresse kannst du uns zu Datenschutzfragen sowie zur Ausübung deiner Rechte erreichen.</p>
+
+  <h2>2. Kontodaten, Eingaben und lokale Berechnungen</h2>
+  <p>Bacculator verarbeitet die Daten, die du in der App erfasst oder aus unterstützten CSV- und Excel-Dateien importierst. Dazu gehören insbesondere Kontobezeichnungen und Benutzernamen, Kapital- und Walletstände, Ein- und Auszahlungen, Tagesgewinne, Referral-Zuordnungen sowie weitere Angaben aus deinen Importdateien. Die App verwendet diese Daten für Übersichten, Statistiken und Prognosen.</p>
+  <p>Diese Daten liegen grundsätzlich im privaten App-Speicher deines Geräts. Es gibt keinen automatischen Cloud-Abgleich deiner Konten und keinen automatischen Abruf deiner Kontodaten bei einer Finanz- oder Handelsplattform. Eine Nutzung der Grundfunktionen erfordert kein Bacculator-Nutzerkonto und keine Anmeldung beim Entwickler.</p>
+  <p>Die Verarbeitung dient der Bereitstellung der von dir gewünschten App-Funktionen auf Grundlage von Art. 6 Abs. 1 Buchst. b DSGVO. Technisch erforderliche Zugriffe auf den Gerätespeicher dienen der von dir angeforderten Nutzung; hierfür ist § 25 Abs. 2 Nr. 2 TDDDG maßgeblich, soweit diese Vorschrift anwendbar ist.</p>
+
+  <h2>3. Lokales Fehlerprotokoll</h2>
+  <p>Zur Fehleranalyse speichert Bacculator Fehler lokal. Ein Eintrag kann Zeitpunkt, App-Version, Betriebssystem, Fehlertext, technische Aufrufstellen und den betroffenen Verarbeitungsschritt enthalten. Je nach Fehler können zusätzlich der Profilzustand und vollständige Originaldateien fehlgeschlagener Imports gespeichert werden. Das kann auch Kontodaten und Angaben zu anderen Personen enthalten.</p>
+  <p>Das vollständige lokale Fehlerprotokoll wird nicht automatisch an den Entwickler übertragen. Es bleibt auch nach „App zurücksetzen“ für die Fehlersuche erhalten. Du kannst es durch das Löschen der App-Daten in den Android-Einstellungen entfernen. Bei einer Deinstallation entfernt das Betriebssystem normalerweise auch den privaten App-Speicher. Selbst exportierte Dateien werden dadurch nicht gelöscht.</p>
+  <p>Zweck ist die nachvollziehbare Diagnose von Funktionsstörungen. Rechtsgrundlage ist Art. 6 Abs. 1 Buchst. f DSGVO; unser berechtigtes Interesse besteht in einer zuverlässigen App und der Untersuchung von Fehlern. Das Protokoll bleibt lokal erhalten, bis du die betreffenden App-Daten entfernst.</p>
+
+  <h2>4. Freiwillige automatische technische Fehlerberichte</h2>
+  <p>Du kannst automatische technische Fehlerberichte ausdrücklich erlauben. Die Funktion ist zunächst ausgeschaltet. Erst nach deiner Zustimmung und einem anschließenden App-Neustart wird sie aktiviert. Ohne Zustimmung bleiben automatische Berichte ausgeschaltet; die übrigen App-Funktionen kannst du weiterhin verwenden.</p>
+  <p>Bei einem erfassten Fehler werden App-Version und Build, Fehlerart, technische Aufrufstellen sowie begrenzte Informationen zu Betriebssystem und Gerät über den Dienst Sentry übermittelt. Vor dem Versand bereinigt die App die Berichte: Persönliche Fehlertexte, Nutzerprofile, Konto- und Importdaten, Bildschirmaufnahmen, Eingaben, lokale Variablen und absolute Dateipfade werden ausgeschlossen. Beim Verbindungsaufbau verarbeitet der Empfangsdienst technisch auch die Quell-IP-Adresse.</p>
+  <p>Die Berichte dienen der Erkennung und Behebung von Fehlern und Abstürzen. Rechtsgrundlage ist deine Einwilligung nach Art. 6 Abs. 1 Buchst. a DSGVO; für entsprechende Zugriffe auf Informationen im Endgerät gilt, soweit erforderlich, § 25 Abs. 1 TDDDG.</p>
+  <p>Du kannst deine Einwilligung jederzeit in den Einstellungen mit Wirkung für die Zukunft widerrufen. Neue Berichte werden beim Ausschalten gestoppt; bereits laufende Übertragungen können noch abgeschlossen werden. Bereits erfolgte Verarbeitungen bleiben von einem Widerruf unberührt. „App zurücksetzen“ schaltet die automatische Übermittlung ebenfalls aus. Eine Löschung bereits übermittelter Daten kannst du über den oben genannten Kontakt anfragen.</p>
+
+  <h2>5. Fehlermeldungen und Verbesserungsvorschläge</h2>
+  <p>Über „Feedback &amp; Hilfe“ kannst du selbst eine Meldung absenden. Übermittelt werden die gewählte Kategorie, dein Nachrichtentext, gegebenenfalls beschriebene Schritte zum Nachstellen und die App-Version. Eine E-Mail-Adresse für Rückfragen und technische Geräteinformationen sind optional. Diese Funktion kannst du auch nutzen, wenn automatische Fehlerberichte ausgeschaltet sind.</p>
+  <p>Ein vollständiger Fehlerexport wird nur angehängt, wenn du „Vollständigen Fehlerexport anhängen“ aktiv auswählst. Diese Auswahl ist standardmäßig ausgeschaltet. Der Anhang kann sämtliche gespeicherten Kontodaten, Fehlerprotokolle, Originaldateien und darin enthaltene Angaben zu weiteren Personen enthalten. Die App weist vor dem Absenden darauf hin. Pro Meldung ist ein ZIP-Anhang von höchstens 10 MB möglich. Bitte teile nur Daten, die du zur Fehlersuche übermitteln möchtest und übermitteln darfst, und füge keine Passwörter hinzu.</p>
+  <p>Die Verarbeitung dient der Bearbeitung deiner Rückmeldung, der Fehlerbehebung und der Verbesserung der App. Grundlage ist deine durch das bewusste Absenden erklärte Einwilligung nach Art. 6 Abs. 1 Buchst. a DSGVO. Für die Bearbeitung einer konkreten vertraglichen Anfrage kann außerdem Art. 6 Abs. 1 Buchst. b DSGVO einschlägig sein. Die Einwilligung in einen vollständigen Fehlerexport erfolgt durch die zusätzliche Auswahl des Anhangs und das anschließende Absenden.</p>
+  <p>Du kannst eine Einwilligung über unseren Kontakt für die Zukunft widerrufen. Bei Anfragen zu einer Meldung hilft die in der App angezeigte Referenznummer, damit wir sie zuordnen können.</p>
+
+  <h2>6. Empfänger Sentry und internationale Verarbeitung</h2>
+  <p>Für die Übermittlung und Auswertung technischer Fehlerberichte sowie manuell abgesendeter Rückmeldungen verwenden wir Sentry. Anbieter ist Functional Software, Inc., handelnd als Sentry, 45 Fremont Street, 8th Floor, San Francisco, CA 94105, USA.</p>
+  <p>Für Bacculator ist ein Empfangsendpunkt der EU-Region von Sentry konfiguriert. Sentry beschreibt den Speicherstandort dieser Region als Frankfurt am Main. Daraus folgt jedoch keine Zusage, dass sämtliche Verarbeitungs- und Supportvorgänge ausschließlich in der EU stattfinden. Der Anbieter hat seinen Sitz in den USA und setzt Unterauftragnehmer ein; dabei können Übermittlungen und Zugriffe aus Drittländern relevant sein.</p>
+  <p>Sentry stellt für die Auftragsverarbeitung ein Data Processing Addendum bereit. Dieses beschreibt auch die für internationale Übermittlungen vorgesehenen Garantien, insbesondere EU-Standardvertragsklauseln und gegebenenfalls anwendbare Angemessenheitsregelungen. Weitere Informationen findest du in den folgenden Unterlagen; eine Kopie der für die Verarbeitung maßgeblichen Informationen kannst du über unseren Kontakt anfragen:</p>
+  <ul>
+    <li><a href="https://sentry.io/privacy/" rel="noopener noreferrer">Datenschutzhinweise von Sentry</a></li>
+    <li><a href="https://sentry.io/legal/dpa/" rel="noopener noreferrer">Sentry Data Processing Addendum</a></li>
+    <li><a href="https://sentry.io/legal/subprocessors/" rel="noopener noreferrer">Unterauftragnehmer von Sentry</a></li>
+    <li><a href="https://docs.sentry.io/organization/data-storage-location/" rel="noopener noreferrer">Informationen zu den Speicherregionen</a></li>
+  </ul>
+  <p>Sentry erhält das vollständige lokale Diagnosepaket ausschließlich dann, wenn du es als Anhang einer manuellen Fehlermeldung auswählst. Es wird nicht als automatischer Fehlerbericht versandt.</p>
+
+  <h2>7. Speicherung, Versandwarteschlange und Löschung</h2>
+  <ul>
+    <li><strong>Konten und Einstellungen:</strong> Sie bleiben im App-Speicher, bis du sie in der App entfernst oder die App-Daten löschst. Eine lokale Rückfallsicherung vor einer Wiederherstellung und selbst exportierte Dateien sind gegebenenfalls separat zu löschen.</li>
+    <li><strong>Lokale Fehlerprotokolle:</strong> Es gibt keine automatische zeitgesteuerte Löschung. Sie bleiben für die Fehlersuche erhalten, auch nach dem Zurücksetzen der Kontodaten. Siehe Abschnitt 3.</li>
+    <li><strong>Rückmeldungen auf dem Gerät:</strong> Vor dem Versand speichert die App eine Meldung privat auf dem Gerät. Bei fehlender Verbindung oder einem vorübergehenden Übermittlungsproblem wird der Versand beim Öffnen der App oder bei einer Verbindungsänderung erneut versucht. Eine Meldung gilt erst nach Bestätigung des Empfangsdiensts als angenommen.</li>
+    <li><strong>Lokale Aufbewahrungsfrist für Rückmeldungen:</strong> Meldungen und Versandnachweise werden beim nächsten Zugriff nach Ablauf von 30 Tagen seit Erstellung entfernt. Nach bestätigtem Versand werden Nachrichtentext, Kontaktadresse und ein mitgesendeter Anhang lokal entfernt; zunächst bleibt nur ein kurzer Versandnachweis. Höchstens 20 ausstehende Meldungen werden gleichzeitig gespeichert.</li>
+    <li><strong>Technischer Versandpuffer:</strong> Für automatische Berichte kann das SDK einen begrenzten lokalen Versandpuffer verwenden. Dieser wird beim Ausschalten der Funktion soweit möglich entfernt. In dieser Konfiguration ist der verwaltete Cache auf höchstens 20 Einträge begrenzt.</li>
+    <li><strong>Daten bei Sentry:</strong> Nach den veröffentlichten Fristen von Sentry werden Fehlerereignisse, Feedback und Anhänge im kostenlosen Developer-Tarif jeweils 30 Tage aufbewahrt. Während einer anfänglichen Testphase können für eingehende Daten die Fristen des Team-Tarifs von 90 Tagen gelten. Maßgeblich ist der Tarif bei Eingang der Daten. Technische Sicherungskopien und Löschabläufe des Anbieters sind hiervon zu unterscheiden. Details nennt <a href="https://docs.sentry.io/security-legal-pii/security/data-retention-periods/">Sentry zu den Aufbewahrungsfristen</a>.</li>
+  </ul>
+  <p>Du kannst lokale Rückmeldungen auf der Feedbackseite löschen. „App zurücksetzen“ entfernt lokale Rückmeldungen und Anhänge und deaktiviert automatische Fehlerberichte; das vollständige lokale Fehlerprotokoll bleibt erhalten. Lokales Löschen und Zurücksetzen entfernen keine bereits beim Entwickler oder Sentry eingegangenen Meldungen. Für solche Daten kannst du dich an uns wenden. Bei gesetzlich erforderlicher weiterer Aufbewahrung wird die Verarbeitung entsprechend eingeschränkt.</p>
+
+  <h2>8. Sicherungen, Betriebssystem-Backups und Teilen</h2>
+  <p>Du kannst selbst eine JSON-Sicherung oder einen vollständigen Fehlerexport erstellen und eine Datei speichern oder über den Teilen-Dialog an einen Empfänger deiner Wahl weitergeben. Die App wählt hierfür keinen Empfänger für dich aus. Für die weitere Verarbeitung durch die von dir ausgewählte Ziel-App oder den Empfänger gelten deren Bedingungen.</p>
+  <p>Von der App erstellte Sicherungen und Fehlerexports sind nicht zusätzlich passwortverschlüsselt. Bewahre sie geschützt auf und teile sie nur mit geeigneten Empfängern.</p>
+  <p>Je nach Android- und Geräteeinstellungen kann das Betriebssystem Kontodaten über seine eigenen Backupfunktionen sichern oder auf ein anderes Gerät übertragen. Die Android-Backup-Regeln der App schließen die Verzeichnisse für Diagnoseprotokolle und Rückmeldungen einschließlich ihrer Anhänge und Einwilligungseinstellungen von diesen Backups aus. Für Betriebssystem-Backups gelten ergänzend die Einstellungen und Datenschutzhinweise des jeweiligen Anbieters.</p>
+
+  <h2>9. Kontakt per E-Mail und freiwillige Unterstützung</h2>
+  <p>Wenn du uns per E-Mail kontaktierst, verarbeiten wir deine Absenderadresse, den Inhalt und die zur Bearbeitung notwendigen Kommunikationsdaten. Das dient der Beantwortung deiner Anfrage auf Grundlage von Art. 6 Abs. 1 Buchst. b DSGVO oder, bei allgemeinen Anliegen, unseres berechtigten Interesses an der Bearbeitung von Anfragen nach Art. 6 Abs. 1 Buchst. f DSGVO. Die Daten werden nur so lange benötigt, wie es die Bearbeitung, die Dokumentation des Vorgangs oder gesetzliche Aufbewahrungspflichten erfordern.</p>
+  <p>Die App kann Adressen für freiwillige Unterstützung auf öffentlichen Blockchains anzeigen. Sie führt selbst keine Wallet-Verbindung oder Zahlung aus. Wenn du eine solche Transaktion außerhalb der App veranlasst, können Absenderadresse, Empfängeradresse, Betrag, Zeitpunkt und Transaktionskennung öffentlich auf der jeweiligen Blockchain einsehbar sein. Die Verarbeitung einer eingehenden Unterstützung dient der Zuordnung und Abwicklung der freiwilligen Zuwendung; Grundlage ist Art. 6 Abs. 1 Buchst. b DSGVO und gegebenenfalls eine gesetzliche Aufbewahrungspflicht nach Art. 6 Abs. 1 Buchst. c DSGVO. Öffentliche Blockchain-Einträge können durch uns regelmäßig nicht gelöscht werden. Für externe Wallet- und Zahlungsdienste gelten deren eigene Datenschutzhinweise.</p>
+
+  <h2>10. Datensicherheit</h2>
+  <p>Übertragungen an den Sentry-Empfang erfolgen über HTTPS/TLS. Lokal nutzt die App den privaten App-Speicher und die Schutzmechanismen des Betriebssystems. Daten in Sicherungen, Fehlerexports und freiwillig angehängten Importdateien können vertraulich sein. Einen vollständigen Schutz gegen jeden Verlust oder unberechtigten Zugriff können technische Maßnahmen nicht gewährleisten.</p>
+
+  <h2>11. Deine Rechte</h2>
+  <p>Nach Maßgabe der gesetzlichen Voraussetzungen hast du insbesondere Rechte auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20). Du kannst eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen (Art. 7 Abs. 3). Die Rechtmäßigkeit einer bereits erfolgten Verarbeitung bleibt davon unberührt.</p>
+  <p><strong>Widerspruch:</strong> Soweit wir eine Verarbeitung auf Art. 6 Abs. 1 Buchst. f DSGVO stützen, kannst du nach Art. 21 DSGVO aus Gründen, die sich aus deiner besonderen Situation ergeben, widersprechen. Wir prüfen den Widerspruch anhand der gesetzlichen Voraussetzungen.</p>
+  <p>Du hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren, insbesondere an deinem gewöhnlichen Aufenthaltsort, Arbeitsplatz oder am Ort des vermuteten Verstoßes. Für Nordrhein-Westfalen ist dies unter anderem die <a href="https://www.ldi.nrw.de/">Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen</a>.</p>
+  <p>Richte Anfragen an <a href="mailto:support@safelog-journal.com">support@safelog-journal.com</a>. Da Kontodaten grundsätzlich nur auf deinem Gerät liegen und automatische technische Berichte ohne Kontoprofil übermittelt werden, benötigen wir gegebenenfalls zusätzliche Angaben, etwa eine Meldungsreferenz, um eine Anfrage zuordnen zu können.</p>
+
+  <h2>12. Freiwilligkeit, Werbung und automatisierte Entscheidungen</h2>
+  <p>Automatische Fehlerberichte, Rückmeldungen, Kontaktangaben und zusätzliche Anhänge sind freiwillig. Die App verwendet keine Werbe-SDKs und kein Session-Replay zur Aufzeichnung deiner Bedienung. Prognosen sind lokale Berechnungen und keine automatisierten Entscheidungen mit rechtlicher oder vergleichbar erheblicher Wirkung im Sinne von Art. 22 DSGVO.</p>
+
+  <h2>13. Änderungen</h2>
+  <p>Wir passen diese Informationen an, wenn sich die App-Funktionen, eingesetzten Dienste oder die Datenverarbeitung ändern. Die aktuelle Fassung ist unter dieser URL und über den Datenschutzlink in der App erreichbar.</p>
+</main>
+<footer>
+  <div class="footer-inner"><span>© SimeaIT · Dennis Frese</span><div><a href="impressum.html">Impressum</a><a href="datenschutz-website.html">Website-Datenschutz</a><a href="mailto:support@safelog-journal.com">Kontakt</a></div></div>
+</footer>
+</body>
+</html>
